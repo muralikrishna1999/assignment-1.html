@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Favorite Food Web Page</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+body{
+    background-image: linear-gradient(to right, white, rgb(228, 21, 56));
+    
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image:linear-gradient(to right, rgb(220, 31, 53), white)
+}
+header li {
+    float: left;
+
+}
+header li a {
+    display: block;
+    color: black;
+    text-align:center ;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header li a:hover {
+    background-color:rgb(228, 147, 33);
+}
+.name a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.food {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+.aa {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    
+} 
+    </style>
+</head>
+<body>
+   <header>
+    <ul>
+        <li>
+            <a href="#">Index</a>
+        </li>
+        <li>
+            <a href="#">Food</a>
+        </li>
+        <li> 
+            <a href="#">About</a>
+        </li>
+    </ul>
+   </header>
+   <div class="text">
+      <h1>Top 5 Favorite Foods</h1>  
+    </div>
+      <div class="name">
+          <ul>
+              <li>
+                   <a href="#karj">Karjikai</a>
+              </li>
+              <li>
+                   <a href="#biriyani">Chicken biriyani</a>
+              </li>
+              <li>
+                   <a href="#cpp">Chicken lolipop</a>
+              </li>
+              <li>
+                   <a href="#sam">Samosa</a>
+              </li>
+              <li>
+                  <a href="#tw">Patota twist</a>
+             </li>
+          </ul>
+      </div>
+      <div class="image">
+           <div id="karj">
+                <img id="kar" src="karjikai.jpeg" class="food"><br>
+           </div>
+             <p class="aa">Karjikai</p><br>
+            <div id="biriyani"> 
+                <img id="bi" src="biriyani.jpg" class="food"><br>
+            </div>
+             <p class="aa">Chicken biriyani</p><br>
+            <div id="cpp">
+                <img src="cp.jpg" class="food"><br>
+            </div>
+             <p class="aa">Chicken lolipop</p><br>
+            <div id="sam">
+                <img src="samosa.jpeg" class="food"><br>
+            </div>
+             <p class="aa">Samosa</p><br>
+            <div id="tw">
+                <img src="twist.jpg" class="food"><br>
+            </div>
+             <p class="aa">Patato twist</p><br>
+            </div>
+        </div>
+</body>
+</html>
