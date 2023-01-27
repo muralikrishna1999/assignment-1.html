@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+background-image: linear-gradient(to right, white, rgb(228, 21, 56));
+margin: 0;
+padding: 0;
+
+}
+header ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-image:linear-gradient(to right, rgb(220, 31, 53), white)
+}
+header li {
+float: left;
+
+}
+header li a {
+display: block;
+color: black;
+text-align:center ;
+padding: 14px 16px;
+text-decoration: none;
+}
+header li a:hover {
+background-color:rgb(228, 147, 33);
+}
+.name a{
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+.food {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+height: 500px;
+}
+.aa {
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+
+} 
